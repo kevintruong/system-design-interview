@@ -1,0 +1,92 @@
+{
+  "main": {
+    "id": "e85091ba33b9998d",
+    "type": "split",
+    "children": [
+      {
+        "id": "65a6b03b406e7d5a",
+        "type": "leaf",
+        "state": {
+          "type": "excalidraw",
+          "state": {
+            "file": "System Design/chapter_1_scale_from_zero_to_milions_of_user.excalidraw2.md"
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "656bc880cbc2c223",
+    "type": "split",
+    "children": [
+      {
+        "id": "b90845a76f73c09b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "380947dd9158b455",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "fc41b85371171717",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 284
+  },
+  "right": {
+    "id": "bf091329688ed812",
+    "type": "split",
+    "children": [
+      {
+        "id": "6efc706849585e77",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "eba866403fd07559",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "System Design/chapter_1_scale_from_zero_to_milions_of_user.excalidraw2.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "65a6b03b406e7d5a",
+  "lastOpenFiles": [
+    "System Design/chapter_1_scale_from_zero_to_milions_of_user.excalidraw2.md"
+  ]
+}
