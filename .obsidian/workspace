@@ -4,12 +4,13 @@
     "type": "split",
     "children": [
       {
-        "id": "65a6b03b406e7d5a",
+        "id": "d49ac0b55cbdddb0",
         "type": "leaf",
         "state": {
-          "type": "excalidraw",
+          "type": "markdown",
           "state": {
-            "file": "System Design/chapter_1_scale_from_zero_to_milions_of_user.excalidraw2.md"
+            "file": "Untitled.md",
+            "mode": "source"
           }
         }
       }
@@ -67,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "System Design/chapter_1_scale_from_zero_to_milions_of_user.excalidraw2.md",
+                "file": "Untitled.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -85,8 +86,9 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "65a6b03b406e7d5a",
+  "active": "d49ac0b55cbdddb0",
   "lastOpenFiles": [
-    "System Design/chapter_1_scale_from_zero_to_milions_of_user.excalidraw2.md"
+    "Untitled.md",
+    "System Design/chapter_1/chapter_1_scale_from_zero_to_milions_of_user.excalidraw2.md"
   ]
 }
