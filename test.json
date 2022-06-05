@@ -1,0 +1,1861 @@
+{
+    "Table": {
+        "Name": "t24_account",
+        "DatabaseName": "tcb_staging_glue_database",
+        "CreateTime": "2022-05-30T16:18:56+07:00",
+        "UpdateTime": "2022-05-30T16:18:56+07:00",
+        "Retention": 0,
+        "StorageDescriptor": {
+            "Columns": [
+                {
+                    "Name": "customer",
+                    "Type": "string",
+                    "Comment": ""
+                },
+                {
+                    "Name": "allow_netting",
+                    "Type": "string",
+                    "Comment": ""
+                },
+                {
+                    "Name": "ledg_reco_with",
+                    "Type": "map<string,string>",
+                    "Comment": ""
+                },
+                {
+                    "Name": "av_auth_db_mvmt",
+                    "Type": "map<string,string>",
+                    "Comment": ""
+                },
+                {
+                    "Name": "available_bal_upd",
+                    "Type": "string",
+                    "Comment": ""
+                },
+                {
+                    "Name": "next_exp_date",
+                    "Type": "string",
+                    "Comment": ""
+                },
+                {
+                    "Name": "first_af_date",
+                    "Type": "string",
+                    "Comment": ""
+                },
+                {
+                    "Name": "ic_product",
+                    "Type": "map<string,string>",
+                    "Comment": ""
+                },
+                {
+                    "Name": "mandate_reg",
+                    "Type": "map<string,string>",
+                    "Comment": ""
+                },
+                {
+                    "Name": "mv_alert_res5",
+                    "Type": "map<string,string>",
+                    "Comment": ""
+                },
+                {
+                    "Name": "narratives",
+                    "Type": "map<string,string>",
+                    "Comment": ""
+                },
+                {
+                    "Name": "ngay_cap_cmt",
+                    "Type": "map<string,string>",
+                    "Comment": ""
+                },
+                {
+                    "Name": "manturity_type",
+                    "Type": "string",
+                    "Comment": ""
+                },
+                {
+                    "Name": "reserved_1",
+                    "Type": "string",
+                    "Comment": ""
+                },
+                {
+                    "Name": "inputter",
+                    "Type": "map<string,string>",
+                    "Comment": ""
+                },
+                {
+                    "Name": "cap_back_value",
+                    "Type": "string",
+                    "Comment": ""
+                },
+                {
+                    "Name": "accr_cr2_trans",
+                    "Type": "map<string,string>",
+                    "Comment": ""
+                },
+                {
+                    "Name": "start_year_bal",
+                    "Type": "string",
+                    "Comment": ""
+                },
+                {
+                    "Name": "currency",
+                    "Type": "string",
+                    "Comment": ""
+                },
+                {
+                    "Name": "contingent_bal_cr",
+                    "Type": "string",
+                    "Comment": ""
+                },
+                {
+                    "Name": "locked_with_limit",
+                    "Type": "string",
+                    "Comment": ""
+                },
+                {
+                    "Name": "joint_notes",
+                    "Type": "map<string,string>",
+                    "Comment": ""
+                },
+                {
+                    "Name": "serial_no_format",
+                    "Type": "string",
+                    "Comment": ""
+                },
+                {
+                    "Name": "sb_group_id",
+                    "Type": "string",
+                    "Comment": ""
+                },
+                {
+                    "Name": "available_date",
+                    "Type": "map<string,string>",
+                    "Comment": ""
+                },
+                {
+                    "Name": "int_no_booking",
+                    "Type": "string",
+                    "Comment": ""
+                },
+                {
+                    "Name": "arrangement_id",
+                    "Type": "string",
+                    "Comment": ""
+                },
+                {
+                    "Name": "value",
+                    "Type": "map<string,string>",
+                    "Comment": ""
+                },
+                {
+                    "Name": "term_start_date",
+                    "Type": "string",
+                    "Comment": ""
+                },
+                {
+                    "Name": "purpose",
+                    "Type": "string",
+                    "Comment": ""
+                },
+                {
+                    "Name": "rep_workphone",
+                    "Type": "map<string,string>",
+                    "Comment": ""
+                },
+                {
+                    "Name": "province_tcb",
+                    "Type": "string",
+                    "Comment": ""
+                },
+                {
+                    "Name": "muc_bao_hiem",
+                    "Type": "string",
+                    "Comment": ""
+                },
+                {
+                    "Name": "reserved_17",
+                    "Type": "string",
+                    "Comment": ""
+                },
+                {
+                    "Name": "reserved_13",
+                    "Type": "string",
+                    "Comment": ""
+                },
+                {
+                    "Name": "dept_code",
+                    "Type": "string",
+                    "Comment": ""
+                },
+                {
+                    "Name": "account_title_1",
+                    "Type": "map<string,string>",
+                    "Comment": ""
+                },
+                {
+                    "Name": "accr_chg_categ",
+                    "Type": "map<string,string>",
+                    "Comment": ""
+                },
+                {
+                    "Name": "accr_cr_trans",
+                    "Type": "map<string,string>",
+                    "Comment": ""
+                },
+                {
+                    "Name": "acct_id",
+                    "Type": "string",
+                    "Comment": ""
+                },
+                {
+                    "Name": "premium_type",
+                    "Type": "map<string,string>",
+                    "Comment": ""
+                },
+                {
+                    "Name": "auto_rec_ccy",
+                    "Type": "map<string,string>",
+                    "Comment": ""
+                },
+                {
+                    "Name": "other_officer",
+                    "Type": "map<string,string>",
+                    "Comment": ""
+                },
+                {
+                    "Name": "ica_distrib_ratio",
+                    "Type": "string",
+                    "Comment": ""
+                },
+                {
+                    "Name": "ica_post_interest",
+                    "Type": "string",
+                    "Comment": ""
+                },
+                {
+                    "Name": "reconcile_acct",
+                    "Type": "string",
+                    "Comment": ""
+                },
+                {
+                    "Name": "lock_inc_this_mvmt",
+                    "Type": "string",
+                    "Comment": ""
+                },
+                {
+                    "Name": "last_com_chg_date",
+                    "Type": "string",
+                    "Comment": ""
+                },
+                {
+                    "Name": "event",
+                    "Type": "map<string,string>",
+                    "Comment": ""
+                },
+                {
+                    "Name": "branch_code",
+                    "Type": "string",
+                    "Comment": ""
+                },
+                {
+                    "Name": "so_chiet_khau",
+                    "Type": "string",
+                    "Comment": ""
+                },
+                {
+                    "Name": "id_nhan_su",
+                    "Type": "string",
+                    "Comment": ""
+                },
+                {
+                    "Name": "parent_bv_date",
+                    "Type": "string",
+                    "Comment": ""
+                },
+                {
+                    "Name": "reserved_19",
+                    "Type": "string",
+                    "Comment": ""
+                },
+                {
+                    "Name": "reserved_6",
+                    "Type": "string",
+                    "Comment": ""
+                },
+                {
+                    "Name": "record_status",
+                    "Type": "string",
+                    "Comment": ""
+                },
+                {
+                    "Name": "tran_last_cr_auto",
+                    "Type": "string",
+                    "Comment": ""
+                },
+                {
+                    "Name": "cap_date_cr_int",
+                    "Type": "map<string,string>",
+                    "Comment": ""
+                },
+                {
+                    "Name": "cap_date_dr_int",
+                    "Type": "map<string,string>",
+                    "Comment": ""
+                },
+                {
+                    "Name": "accr_cr_susp",
+                    "Type": "map<string,string>",
+                    "Comment": ""
+                },
+                {
+                    "Name": "accr_dr2_susp",
+                    "Type": "map<string,string>",
+                    "Comment": ""
+                },
+                {
+                    "Name": "account_number",
+                    "Type": "string",
+                    "Comment": ""
+                },
+                {
+                    "Name": "liquidation_mode",
+                    "Type": "string",
+                    "Comment": ""
+                },
+                {
+                    "Name": "er_balance",
+                    "Type": "map<string,string>",
+                    "Comment": ""
+                },
+                {
+                    "Name": "so_con_lai",
+                    "Type": "string",
+                    "Comment": ""
+                },
+                {
+                    "Name": "status_tcb",
+                    "Type": "string",
+                    "Comment": ""
+                },
+                {
+                    "Name": "open_date_tcb",
+                    "Type": "string",
+                    "Comment": ""
+                },
+                {
+                    "Name": "success_market",
+                    "Type": "string",
+                    "Comment": ""
+                },
+                {
+                    "Name": "noi_cap_cmt",
+                    "Type": "map<string,string>",
+                    "Comment": ""
+                },
+                {
+                    "Name": "tk_sale",
+                    "Type": "string",
+                    "Comment": ""
+                },
+                {
+                    "Name": "quan_he",
+                    "Type": "string",
+                    "Comment": ""
+                },
+                {
+                    "Name": "htrang_hd",
+                    "Type": "string",
+                    "Comment": ""
+                },
+                {
+                    "Name": "industry_tcb",
+                    "Type": "string",
+                    "Comment": ""
+                },
+                {
+                    "Name": "sc_reserved8",
+                    "Type": "string",
+                    "Comment": ""
+                },
+                {
+                    "Name": "inputer_dept",
+                    "Type": "string",
+                    "Comment": ""
+                },
+                {
+                    "Name": "request_id",
+                    "Type": "map<string,string>",
+                    "Comment": ""
+                },
+                {
+                    "Name": "ref_data_item",
+                    "Type": "map<string,string>",
+                    "Comment": ""
+                },
+                {
+                    "Name": "limit_key",
+                    "Type": "string",
+                    "Comment": ""
+                },
+                {
+                    "Name": "reserved_27",
+                    "Type": "string",
+                    "Comment": ""
+                },
+                {
+                    "Name": "reserved_14",
+                    "Type": "string",
+                    "Comment": ""
+                },
+                {
+                    "Name": "reserved_10",
+                    "Type": "string",
+                    "Comment": ""
+                },
+                {
+                    "Name": "reserved_5",
+                    "Type": "string",
+                    "Comment": ""
+                },
+                {
+                    "Name": "reserved_4",
+                    "Type": "string",
+                    "Comment": ""
+                },
+                {
+                    "Name": "accr_cr2_amount",
+                    "Type": "map<string,string>",
+                    "Comment": ""
+                },
+                {
+                    "Name": "accr_dr2_categ",
+                    "Type": "map<string,string>",
+                    "Comment": ""
+                },
+                {
+                    "Name": "opening_date",
+                    "Type": "string",
+                    "Comment": ""
+                },
+                {
+                    "Name": "closure_date",
+                    "Type": "string",
+                    "Comment": ""
+                },
+                {
+                    "Name": "source_id",
+                    "Type": "string",
+                    "Comment": ""
+                },
+                {
+                    "Name": "auto_pay_acct",
+                    "Type": "string",
+                    "Comment": ""
+                },
+                {
+                    "Name": "locked_amount",
+                    "Type": "map<string,string>",
+                    "Comment": ""
+                },
+                {
+                    "Name": "dispo_exempt",
+                    "Type": "string",
+                    "Comment": ""
+                },
+                {
+                    "Name": "ica_distrib_type",
+                    "Type": "string",
+                    "Comment": ""
+                },
+                {
+                    "Name": "ica_start_date",
+                    "Type": "string",
+                    "Comment": ""
+                },
+                {
+                    "Name": "ica_back_value",
+                    "Type": "string",
+                    "Comment": ""
+                },
+                {
+                    "Name": "hvt_flag",
+                    "Type": "string",
+                    "Comment": ""
+                },
+                {
+                    "Name": "available_bal",
+                    "Type": "map<string,string>",
+                    "Comment": ""
+                },
+                {
+                    "Name": "credit_check",
+                    "Type": "string",
+                    "Comment": ""
+                },
+                {
+                    "Name": "next_stmt_date",
+                    "Type": "map<string,string>",
+                    "Comment": ""
+                },
+                {
+                    "Name": "fwd_entry_hold",
+                    "Type": "map<string,string>",
+                    "Comment": ""
+                },
+                {
+                    "Name": "legacy_ref",
+                    "Type": "string",
+                    "Comment": ""
+                },
+                {
+                    "Name": "ngay_phat_hanh",
+                    "Type": "map<string,string>",
+                    "Comment": ""
+                },
+                {
+                    "Name": "acct_char_tcb",
+                    "Type": "string",
+                    "Comment": ""
+                },
+                {
+                    "Name": "link_id_tcb",
+                    "Type": "string",
+                    "Comment": ""
+                },
+                {
+                    "Name": "cont_purpose",
+                    "Type": "string",
+                    "Comment": ""
+                },
+                {
+                    "Name": "sc_reserved6",
+                    "Type": "string",
+                    "Comment": ""
+                },
+                {
+                    "Name": "sc_reserved7",
+                    "Type": "string",
+                    "Comment": ""
+                },
+                {
+                    "Name": "pi_tcb",
+                    "Type": "string",
+                    "Comment": ""
+                },
+                {
+                    "Name": "acc_no",
+                    "Type": "string",
+                    "Comment": ""
+                },
+                {
+                    "Name": "lucky_account",
+                    "Type": "string",
+                    "Comment": ""
+                },
+                {
+                    "Name": "date_time",
+                    "Type": "map<string,string>",
+                    "Comment": ""
+                },
+                {
+                    "Name": "online_cleared_bal",
+                    "Type": "string",
+                    "Comment": ""
+                },
+                {
+                    "Name": "amnt_last_cr_cust",
+                    "Type": "string",
+                    "Comment": ""
+                },
+                {
+                    "Name": "amnt_last_dr_bank",
+                    "Type": "string",
+                    "Comment": ""
+                },
+                {
+                    "Name": "accr_dr_susp",
+                    "Type": "map<string,string>",
+                    "Comment": ""
+                },
+                {
+                    "Name": "consol_key",
+                    "Type": "string",
+                    "Comment": ""
+                },
+                {
+                    "Name": "open_val_dated_bal",
+                    "Type": "string",
+                    "Comment": ""
+                },
+                {
+                    "Name": "ica_main_acct_ind",
+                    "Type": "string",
+                    "Comment": ""
+                },
+                {
+                    "Name": "ica_main_date",
+                    "Type": "map<string,string>",
+                    "Comment": ""
+                },
+                {
+                    "Name": "all_in_one_product",
+                    "Type": "string",
+                    "Comment": ""
+                },
+                {
+                    "Name": "sc_reserved1",
+                    "Type": "string",
+                    "Comment": ""
+                },
+                {
+                    "Name": "tcb_department",
+                    "Type": "string",
+                    "Comment": ""
+                },
+                {
+                    "Name": "citizen_id",
+                    "Type": "map<string,string>",
+                    "Comment": ""
+                },
+                {
+                    "Name": "gui_sao_ke",
+                    "Type": "string",
+                    "Comment": ""
+                },
+                {
+                    "Name": "tx_n_log_tcb",
+                    "Type": "string",
+                    "Comment": ""
+                },
+                {
+                    "Name": "rep_email",
+                    "Type": "map<string,string>",
+                    "Comment": ""
+                },
+                {
+                    "Name": "closure_notes",
+                    "Type": "map<string,string>",
+                    "Comment": ""
+                },
+                {
+                    "Name": "credit_chk_txn_type",
+                    "Type": "string",
+                    "Comment": ""
+                },
+                {
+                    "Name": "reserved_18",
+                    "Type": "string",
+                    "Comment": ""
+                },
+                {
+                    "Name": "auditor_code",
+                    "Type": "string",
+                    "Comment": ""
+                },
+                {
+                    "Name": "date_last_dr_bank",
+                    "Type": "string",
+                    "Comment": ""
+                },
+                {
+                    "Name": "short_title",
+                    "Type": "map<string,string>",
+                    "Comment": ""
+                },
+                {
+                    "Name": "accr_dr_amount",
+                    "Type": "map<string,string>",
+                    "Comment": ""
+                },
+                {
+                    "Name": "accr_dr2_amount",
+                    "Type": "map<string,string>",
+                    "Comment": ""
+                },
+                {
+                    "Name": "account_no",
+                    "Type": "string",
+                    "Comment": ""
+                },
+                {
+                    "Name": "cap_date_prm",
+                    "Type": "map<string,string>",
+                    "Comment": ""
+                },
+                {
+                    "Name": "dispo_officer",
+                    "Type": "string",
+                    "Comment": ""
+                },
+                {
+                    "Name": "ica_main_account",
+                    "Type": "string",
+                    "Comment": ""
+                },
+                {
+                    "Name": "ica_main_ratio",
+                    "Type": "string",
+                    "Comment": ""
+                },
+                {
+                    "Name": "contingent_int",
+                    "Type": "string",
+                    "Comment": ""
+                },
+                {
+                    "Name": "ep_balance",
+                    "Type": "map<string,string>",
+                    "Comment": ""
+                },
+                {
+                    "Name": "open_available_bal",
+                    "Type": "string",
+                    "Comment": ""
+                },
+                {
+                    "Name": "forward_mvmts",
+                    "Type": "map<string,string>",
+                    "Comment": ""
+                },
+                {
+                    "Name": "local_ref",
+                    "Type": "map<string,string>",
+                    "Comment": ""
+                },
+                {
+                    "Name": "officer_pay_ac",
+                    "Type": "string",
+                    "Comment": ""
+                },
+                {
+                    "Name": "log_tcb",
+                    "Type": "string",
+                    "Comment": ""
+                },
+                {
+                    "Name": "so_tien",
+                    "Type": "string",
+                    "Comment": ""
+                },
+                {
+                    "Name": "secondary_limit_amt",
+                    "Type": "string",
+                    "Comment": ""
+                },
+                {
+                    "Name": "inactiv_marker",
+                    "Type": "string",
+                    "Comment": ""
+                },
+                {
+                    "Name": "reserved_26",
+                    "Type": "string",
+                    "Comment": ""
+                },
+                {
+                    "Name": "open_actual_bal",
+                    "Type": "string",
+                    "Comment": ""
+                },
+                {
+                    "Name": "reserved_7",
+                    "Type": "string",
+                    "Comment": ""
+                },
+                {
+                    "Name": "reserved_2",
+                    "Type": "string",
+                    "Comment": ""
+                },
+                {
+                    "Name": "date_last_dr_auto",
+                    "Type": "string",
+                    "Comment": ""
+                },
+                {
+                    "Name": "accr_cr_categ",
+                    "Type": "map<string,string>",
+                    "Comment": ""
+                },
+                {
+                    "Name": "position_type",
+                    "Type": "string",
+                    "Comment": ""
+                },
+                {
+                    "Name": "int_liq_ccy",
+                    "Type": "map<string,string>",
+                    "Comment": ""
+                },
+                {
+                    "Name": "contingent_bal_dr",
+                    "Type": "string",
+                    "Comment": ""
+                },
+                {
+                    "Name": "link_to_limit",
+                    "Type": "string",
+                    "Comment": ""
+                },
+                {
+                    "Name": "apr",
+                    "Type": "string",
+                    "Comment": ""
+                },
+                {
+                    "Name": "er_value_date",
+                    "Type": "map<string,string>",
+                    "Comment": ""
+                },
+                {
+                    "Name": "closed_online",
+                    "Type": "string",
+                    "Comment": ""
+                },
+                {
+                    "Name": "officer_pay_acct",
+                    "Type": "string",
+                    "Comment": ""
+                },
+                {
+                    "Name": "id_nhansu",
+                    "Type": "string",
+                    "Comment": ""
+                },
+                {
+                    "Name": "acct_gt",
+                    "Type": "map<string,string>",
+                    "Comment": ""
+                },
+                {
+                    "Name": "nominated_acct",
+                    "Type": "string",
+                    "Comment": ""
+                },
+                {
+                    "Name": "multi_currency",
+                    "Type": "string",
+                    "Comment": ""
+                },
+                {
+                    "Name": "credit_chk_condition",
+                    "Type": "string",
+                    "Comment": ""
+                },
+                {
+                    "Name": "reserved_28",
+                    "Type": "string",
+                    "Comment": ""
+                },
+                {
+                    "Name": "reserved_15",
+                    "Type": "string",
+                    "Comment": ""
+                },
+                {
+                    "Name": "account_title_2",
+                    "Type": "map<string,string>",
+                    "Comment": ""
+                },
+                {
+                    "Name": "accr_dr_categ",
+                    "Type": "map<string,string>",
+                    "Comment": ""
+                },
+                {
+                    "Name": "value_dated_bal",
+                    "Type": "map<string,string>",
+                    "Comment": ""
+                },
+                {
+                    "Name": "con_interest_accr",
+                    "Type": "string",
+                    "Comment": ""
+                },
+                {
+                    "Name": "referal_code",
+                    "Type": "map<string,string>",
+                    "Comment": ""
+                },
+                {
+                    "Name": "mv_alert_res1",
+                    "Type": "map<string,string>",
+                    "Comment": ""
+                },
+                {
+                    "Name": "exceptional_cus",
+                    "Type": "string",
+                    "Comment": ""
+                },
+                {
+                    "Name": "ngay_dao_han",
+                    "Type": "string",
+                    "Comment": ""
+                },
+                {
+                    "Name": "pri_fqu_tcb",
+                    "Type": "string",
+                    "Comment": ""
+                },
+                {
+                    "Name": "relation_tcb",
+                    "Type": "map<string,string>",
+                    "Comment": ""
+                },
+                {
+                    "Name": "rate_ho",
+                    "Type": "string",
+                    "Comment": ""
+                },
+                {
+                    "Name": "ghi_chu",
+                    "Type": "map<string,string>",
+                    "Comment": ""
+                },
+                {
+                    "Name": "principal",
+                    "Type": "string",
+                    "Comment": ""
+                },
+                {
+                    "Name": "reserved_23",
+                    "Type": "string",
+                    "Comment": ""
+                },
+                {
+                    "Name": "override",
+                    "Type": "map<string,string>",
+                    "Comment": ""
+                },
+                {
+                    "Name": "date_last_cr_auto",
+                    "Type": "string",
+                    "Comment": ""
+                },
+                {
+                    "Name": "value_date",
+                    "Type": "map<string,string>",
+                    "Comment": ""
+                },
+                {
+                    "Name": "open_category",
+                    "Type": "string",
+                    "Comment": ""
+                },
+                {
+                    "Name": "charge_ccy",
+                    "Type": "string",
+                    "Comment": ""
+                },
+                {
+                    "Name": "teller_id",
+                    "Type": "string",
+                    "Comment": ""
+                },
+                {
+                    "Name": "grp_ac_no",
+                    "Type": "string",
+                    "Comment": ""
+                },
+                {
+                    "Name": "alt_acct_id",
+                    "Type": "map<string,string>",
+                    "Comment": ""
+                },
+                {
+                    "Name": "orig_ccy_payment",
+                    "Type": "string",
+                    "Comment": ""
+                },
+                {
+                    "Name": "posting_restrict",
+                    "Type": "map<string,string>",
+                    "Comment": ""
+                },
+                {
+                    "Name": "ica_add_remove",
+                    "Type": "string",
+                    "Comment": ""
+                },
+                {
+                    "Name": "av_nau_cr_mvmt",
+                    "Type": "map<string,string>",
+                    "Comment": ""
+                },
+                {
+                    "Name": "max_sub_account",
+                    "Type": "string",
+                    "Comment": ""
+                },
+                {
+                    "Name": "dr_adj_amount",
+                    "Type": "string",
+                    "Comment": ""
+                },
+                {
+                    "Name": "seri_no",
+                    "Type": "map<string,string>",
+                    "Comment": ""
+                },
+                {
+                    "Name": "acc_int_tcb",
+                    "Type": "string",
+                    "Comment": ""
+                },
+                {
+                    "Name": "sc_reserved5",
+                    "Type": "string",
+                    "Comment": ""
+                },
+                {
+                    "Name": "condition_group",
+                    "Type": "string",
+                    "Comment": ""
+                },
+                {
+                    "Name": "reserved_22",
+                    "Type": "string",
+                    "Comment": ""
+                },
+                {
+                    "Name": "reserved_21",
+                    "Type": "string",
+                    "Comment": ""
+                },
+                {
+                    "Name": "reserved_12",
+                    "Type": "string",
+                    "Comment": ""
+                },
+                {
+                    "Name": "open_cleared_bal",
+                    "Type": "string",
+                    "Comment": ""
+                },
+                {
+                    "Name": "audit_date_time",
+                    "Type": "string",
+                    "Comment": ""
+                },
+                {
+                    "Name": "amnt_last_cr_auto",
+                    "Type": "string",
+                    "Comment": ""
+                },
+                {
+                    "Name": "tran_last_cr_bank",
+                    "Type": "string",
+                    "Comment": ""
+                },
+                {
+                    "Name": "tran_last_dr_cust",
+                    "Type": "string",
+                    "Comment": ""
+                },
+                {
+                    "Name": "cap_date_d2_int",
+                    "Type": "map<string,string>",
+                    "Comment": ""
+                },
+                {
+                    "Name": "accr_chg_amount",
+                    "Type": "map<string,string>",
+                    "Comment": ""
+                },
+                {
+                    "Name": "accr_dr_trans",
+                    "Type": "map<string,string>",
+                    "Comment": ""
+                },
+                {
+                    "Name": "int_liqu_acct",
+                    "Type": "map<string,string>",
+                    "Comment": ""
+                },
+                {
+                    "Name": "limit_ref",
+                    "Type": "string",
+                    "Comment": ""
+                },
+                {
+                    "Name": "pending_id",
+                    "Type": "map<string,string>",
+                    "Comment": ""
+                },
+                {
+                    "Name": "stock_control_type",
+                    "Type": "string",
+                    "Comment": ""
+                },
+                {
+                    "Name": "tax_suspend",
+                    "Type": "string",
+                    "Comment": ""
+                },
+                {
+                    "Name": "overdue_status",
+                    "Type": "string",
+                    "Comment": ""
+                },
+                {
+                    "Name": "mandate_record",
+                    "Type": "map<string,string>",
+                    "Comment": ""
+                },
+                {
+                    "Name": "dr2_adj_amount",
+                    "Type": "string",
+                    "Comment": ""
+                },
+                {
+                    "Name": "cr_adj_amount",
+                    "Type": "string",
+                    "Comment": ""
+                },
+                {
+                    "Name": "prodcat",
+                    "Type": "string",
+                    "Comment": ""
+                },
+                {
+                    "Name": "in_so_phu",
+                    "Type": "string",
+                    "Comment": ""
+                },
+                {
+                    "Name": "cophieu",
+                    "Type": "string",
+                    "Comment": ""
+                },
+                {
+                    "Name": "tk_type",
+                    "Type": "map<string,string>",
+                    "Comment": ""
+                },
+                {
+                    "Name": "statement_date",
+                    "Type": "string",
+                    "Comment": ""
+                },
+                {
+                    "Name": "ref_data_value",
+                    "Type": "map<string,string>",
+                    "Comment": ""
+                },
+                {
+                    "Name": "closure_reason",
+                    "Type": "string",
+                    "Comment": ""
+                },
+                {
+                    "Name": "parent_account",
+                    "Type": "string",
+                    "Comment": ""
+                },
+                {
+                    "Name": "reserved_29",
+                    "Type": "string",
+                    "Comment": ""
+                },
+                {
+                    "Name": "curr_no",
+                    "Type": "string",
+                    "Comment": ""
+                },
+                {
+                    "Name": "working_balance",
+                    "Type": "string",
+                    "Comment": ""
+                },
+                {
+                    "Name": "tran_last_cr_cust",
+                    "Type": "string",
+                    "Comment": ""
+                },
+                {
+                    "Name": "date_last_cr_bank",
+                    "Type": "string",
+                    "Comment": ""
+                },
+                {
+                    "Name": "amnt_last_cr_bank",
+                    "Type": "string",
+                    "Comment": ""
+                },
+                {
+                    "Name": "tran_last_dr_bank",
+                    "Type": "string",
+                    "Comment": ""
+                },
+                {
+                    "Name": "cap_date_c2_int",
+                    "Type": "map<string,string>",
+                    "Comment": ""
+                },
+                {
+                    "Name": "interest_ccy",
+                    "Type": "string",
+                    "Comment": ""
+                },
+                {
+                    "Name": "our_ext_acct_no",
+                    "Type": "string",
+                    "Comment": ""
+                },
+                {
+                    "Name": "ica_main_acct",
+                    "Type": "map<string,string>",
+                    "Comment": ""
+                },
+                {
+                    "Name": "av_nau_db_mvmt",
+                    "Type": "map<string,string>",
+                    "Comment": ""
+                },
+                {
+                    "Name": "av_auth_cr_mvmt",
+                    "Type": "map<string,string>",
+                    "Comment": ""
+                },
+                {
+                    "Name": "next_af_date",
+                    "Type": "string",
+                    "Comment": ""
+                },
+                {
+                    "Name": "next_acct_cap",
+                    "Type": "string",
+                    "Comment": ""
+                },
+                {
+                    "Name": "cash_pool_group",
+                    "Type": "map<string,string>",
+                    "Comment": ""
+                },
+                {
+                    "Name": "operand",
+                    "Type": "map<string,string>",
+                    "Comment": ""
+                },
+                {
+                    "Name": "gltenor",
+                    "Type": "string",
+                    "Comment": ""
+                },
+                {
+                    "Name": "acc_fqu_tcb",
+                    "Type": "string",
+                    "Comment": ""
+                },
+                {
+                    "Name": "customer_rep",
+                    "Type": "map<string,string>",
+                    "Comment": ""
+                },
+                {
+                    "Name": "ngay_hieuluc",
+                    "Type": "string",
+                    "Comment": ""
+                },
+                {
+                    "Name": "biendols",
+                    "Type": "string",
+                    "Comment": ""
+                },
+                {
+                    "Name": "application_id",
+                    "Type": "string",
+                    "Comment": ""
+                },
+                {
+                    "Name": "pending_open",
+                    "Type": "string",
+                    "Comment": ""
+                },
+                {
+                    "Name": "time_exp_pend",
+                    "Type": "string",
+                    "Comment": ""
+                },
+                {
+                    "Name": "accounting_company",
+                    "Type": "string",
+                    "Comment": ""
+                },
+                {
+                    "Name": "external_posting",
+                    "Type": "string",
+                    "Comment": ""
+                },
+                {
+                    "Name": "balance_conversion_mkt",
+                    "Type": "string",
+                    "Comment": ""
+                },
+                {
+                    "Name": "reserved_3",
+                    "Type": "string",
+                    "Comment": ""
+                },
+                {
+                    "Name": "amnt_last_dr_cust",
+                    "Type": "string",
+                    "Comment": ""
+                },
+                {
+                    "Name": "accr_cr_amount",
+                    "Type": "map<string,string>",
+                    "Comment": ""
+                },
+                {
+                    "Name": "credit_movement",
+                    "Type": "map<string,string>",
+                    "Comment": ""
+                },
+                {
+                    "Name": "acct_credit_int",
+                    "Type": "map<string,string>",
+                    "Comment": ""
+                },
+                {
+                    "Name": "charge_mkt",
+                    "Type": "string",
+                    "Comment": ""
+                },
+                {
+                    "Name": "grp_ccy",
+                    "Type": "string",
+                    "Comment": ""
+                },
+                {
+                    "Name": "premium_freq",
+                    "Type": "map<string,string>",
+                    "Comment": ""
+                },
+                {
+                    "Name": "stmt_reco_with",
+                    "Type": "map<string,string>",
+                    "Comment": ""
+                },
+                {
+                    "Name": "reco_tolerance",
+                    "Type": "string",
+                    "Comment": ""
+                },
+                {
+                    "Name": "tax_at_settle",
+                    "Type": "string",
+                    "Comment": ""
+                },
+                {
+                    "Name": "interest_comp_acct",
+                    "Type": "string",
+                    "Comment": ""
+                },
+                {
+                    "Name": "master_account",
+                    "Type": "string",
+                    "Comment": ""
+                },
+                {
+                    "Name": "date_last_update",
+                    "Type": "string",
+                    "Comment": ""
+                },
+                {
+                    "Name": "shadow_account",
+                    "Type": "string",
+                    "Comment": ""
+                },
+                {
+                    "Name": "ic_charge_id",
+                    "Type": "string",
+                    "Comment": ""
+                },
+                {
+                    "Name": "ic_next_cap_date",
+                    "Type": "string",
+                    "Comment": ""
+                },
+                {
+                    "Name": "cr2_adj_amount",
+                    "Type": "string",
+                    "Comment": ""
+                },
+                {
+                    "Name": "waive_ledger_fee",
+                    "Type": "string",
+                    "Comment": ""
+                },
+                {
+                    "Name": "field",
+                    "Type": "map<string,string>",
+                    "Comment": ""
+                },
+                {
+                    "Name": "mv_alert_res4",
+                    "Type": "map<string,string>",
+                    "Comment": ""
+                },
+                {
+                    "Name": "mv_alert_res3",
+                    "Type": "map<string,string>",
+                    "Comment": ""
+                },
+                {
+                    "Name": "sc_reserved10",
+                    "Type": "string",
+                    "Comment": ""
+                },
+                {
+                    "Name": "sc_reserved2",
+                    "Type": "string",
+                    "Comment": ""
+                },
+                {
+                    "Name": "goc_con_lai",
+                    "Type": "string",
+                    "Comment": ""
+                },
+                {
+                    "Name": "rate_fqu_tcb",
+                    "Type": "string",
+                    "Comment": ""
+                },
+                {
+                    "Name": "sc_reserved3",
+                    "Type": "string",
+                    "Comment": ""
+                },
+                {
+                    "Name": "rep_birthday",
+                    "Type": "map<string,string>",
+                    "Comment": ""
+                },
+                {
+                    "Name": "tcb_product",
+                    "Type": "string",
+                    "Comment": ""
+                },
+                {
+                    "Name": "agency_acct",
+                    "Type": "string",
+                    "Comment": ""
+                },
+                {
+                    "Name": "txn_log_tcb",
+                    "Type": "string",
+                    "Comment": ""
+                },
+                {
+                    "Name": "ttnpp",
+                    "Type": "string",
+                    "Comment": ""
+                },
+                {
+                    "Name": "sam_id_hist",
+                    "Type": "string",
+                    "Comment": ""
+                },
+                {
+                    "Name": "reserved_16",
+                    "Type": "string",
+                    "Comment": ""
+                },
+                {
+                    "Name": "reserved_11",
+                    "Type": "string",
+                    "Comment": ""
+                },
+                {
+                    "Name": "reserved_8",
+                    "Type": "string",
+                    "Comment": ""
+                },
+                {
+                    "Name": "online_actual_bal",
+                    "Type": "string",
+                    "Comment": ""
+                },
+                {
+                    "Name": "date_last_cr_cust",
+                    "Type": "string",
+                    "Comment": ""
+                },
+                {
+                    "Name": "cap_date_charge",
+                    "Type": "map<string,string>",
+                    "Comment": ""
+                },
+                {
+                    "Name": "mnemonic",
+                    "Type": "string",
+                    "Comment": ""
+                },
+                {
+                    "Name": "accr_cr2_categ",
+                    "Type": "map<string,string>",
+                    "Comment": ""
+                },
+                {
+                    "Name": "debit_movement",
+                    "Type": "map<string,string>",
+                    "Comment": ""
+                },
+                {
+                    "Name": "currency_market",
+                    "Type": "string",
+                    "Comment": ""
+                },
+                {
+                    "Name": "prodccy",
+                    "Type": "string",
+                    "Comment": ""
+                },
+                {
+                    "Name": "_id",
+                    "Type": "string",
+                    "Comment": ""
+                },
+                {
+                    "Name": "original_acct",
+                    "Type": "map<string,string>",
+                    "Comment": ""
+                },
+                {
+                    "Name": "single_limit",
+                    "Type": "string",
+                    "Comment": ""
+                },
+                {
+                    "Name": "category",
+                    "Type": "string",
+                    "Comment": ""
+                },
+                {
+                    "Name": "card_narr_tcb",
+                    "Type": "map<string,string>",
+                    "Comment": ""
+                },
+                {
+                    "Name": "dv_tra_luong",
+                    "Type": "string",
+                    "Comment": ""
+                },
+                {
+                    "Name": "vn_street",
+                    "Type": "map<string,string>",
+                    "Comment": ""
+                },
+                {
+                    "Name": "reserved_24",
+                    "Type": "string",
+                    "Comment": ""
+                },
+                {
+                    "Name": "co_code",
+                    "Type": "string",
+                    "Comment": ""
+                },
+                {
+                    "Name": "tran_last_dr_auto",
+                    "Type": "string",
+                    "Comment": ""
+                },
+                {
+                    "Name": "accr_chg_trans",
+                    "Type": "map<string,string>",
+                    "Comment": ""
+                },
+                {
+                    "Name": "accr_chg_susp",
+                    "Type": "map<string,string>",
+                    "Comment": ""
+                },
+                {
+                    "Name": "passbook",
+                    "Type": "string",
+                    "Comment": ""
+                },
+                {
+                    "Name": "acct_debit_int",
+                    "Type": "map<string,string>",
+                    "Comment": ""
+                },
+                {
+                    "Name": "interest_mkt",
+                    "Type": "string",
+                    "Comment": ""
+                },
+                {
+                    "Name": "con_charge_accr",
+                    "Type": "string",
+                    "Comment": ""
+                },
+                {
+                    "Name": "relation_code",
+                    "Type": "map<string,string>",
+                    "Comment": ""
+                },
+                {
+                    "Name": "account_officer",
+                    "Type": "string",
+                    "Comment": ""
+                },
+                {
+                    "Name": "consolidate_ent",
+                    "Type": "string",
+                    "Comment": ""
+                },
+                {
+                    "Name": "ic_lst_prod_cap",
+                    "Type": "map<string,string>",
+                    "Comment": ""
+                },
+                {
+                    "Name": "acc_deb_limit",
+                    "Type": "map<string,string>",
+                    "Comment": ""
+                },
+                {
+                    "Name": "mandate_appl",
+                    "Type": "map<string,string>",
+                    "Comment": ""
+                },
+                {
+                    "Name": "menh_gia",
+                    "Type": "map<string,string>",
+                    "Comment": ""
+                },
+                {
+                    "Name": "amt_char_tcb",
+                    "Type": "string",
+                    "Comment": ""
+                },
+                {
+                    "Name": "sc_reserved4",
+                    "Type": "string",
+                    "Comment": ""
+                },
+                {
+                    "Name": "repay_percent",
+                    "Type": "string",
+                    "Comment": ""
+                },
+                {
+                    "Name": "allowed_bv_date",
+                    "Type": "string",
+                    "Comment": ""
+                },
+                {
+                    "Name": "reserved_20",
+                    "Type": "string",
+                    "Comment": ""
+                },
+                {
+                    "Name": "date_last_dr_cust",
+                    "Type": "string",
+                    "Comment": ""
+                },
+                {
+                    "Name": "accr_cr2_susp",
+                    "Type": "map<string,string>",
+                    "Comment": ""
+                },
+                {
+                    "Name": "accr_dr2_trans",
+                    "Type": "map<string,string>",
+                    "Comment": ""
+                },
+                {
+                    "Name": "joint_holder",
+                    "Type": "map<string,string>",
+                    "Comment": ""
+                },
+                {
+                    "Name": "total_pending",
+                    "Type": "map<string,string>",
+                    "Comment": ""
+                },
+                {
+                    "Name": "from_date",
+                    "Type": "map<string,string>",
+                    "Comment": ""
+                },
+                {
+                    "Name": "ica_new_main_acc",
+                    "Type": "string",
+                    "Comment": ""
+                },
+                {
+                    "Name": "interest_liqu_acct",
+                    "Type": "string",
+                    "Comment": ""
+                },
+                {
+                    "Name": "exposure_dates",
+                    "Type": "map<string,string>",
+                    "Comment": ""
+                },
+                {
+                    "Name": "portfolio_no",
+                    "Type": "map<string,string>",
+                    "Comment": ""
+                },
+                {
+                    "Name": "open_asset_type",
+                    "Type": "string",
+                    "Comment": ""
+                },
+                {
+                    "Name": "mv_alert_res6",
+                    "Type": "map<string,string>",
+                    "Comment": ""
+                },
+                {
+                    "Name": "mv_alert_res2",
+                    "Type": "map<string,string>",
+                    "Comment": ""
+                },
+                {
+                    "Name": "group_acc_tcb",
+                    "Type": "string",
+                    "Comment": ""
+                },
+                {
+                    "Name": "total_cash",
+                    "Type": "string",
+                    "Comment": ""
+                },
+                {
+                    "Name": "acct_sto_tcb",
+                    "Type": "string",
+                    "Comment": ""
+                },
+                {
+                    "Name": "mien_phi_qltk",
+                    "Type": "string",
+                    "Comment": ""
+                },
+                {
+                    "Name": "sc_reserved9",
+                    "Type": "string",
+                    "Comment": ""
+                },
+                {
+                    "Name": "reserved_25",
+                    "Type": "string",
+                    "Comment": ""
+                },
+                {
+                    "Name": "reserved_9",
+                    "Type": "string",
+                    "Comment": ""
+                },
+                {
+                    "Name": "authoriser",
+                    "Type": "string",
+                    "Comment": ""
+                },
+                {
+                    "Name": "amnt_last_dr_auto",
+                    "Type": "string",
+                    "Comment": ""
+                },
+                {
+                    "Name": "int_liqu_type",
+                    "Type": "map<string,string>",
+                    "Comment": ""
+                },
+                {
+                    "Name": "charge_account",
+                    "Type": "string",
+                    "Comment": ""
+                },
+                {
+                    "Name": "alt_acct_type",
+                    "Type": "map<string,string>",
+                    "Comment": ""
+                },
+                {
+                    "Name": "customer_no",
+                    "Type": "string",
+                    "Comment": ""
+                },
+                {
+                    "Name": "ds_record_change_type",
+                    "Type": "string",
+                    "Comment": ""
+                },
+                {
+                    "Name": "ds_ogg_extractor_id",
+                    "Type": "string",
+                    "Comment": ""
+                },
+                {
+                    "Name": "ds_cdc_index",
+                    "Type": "string",
+                    "Comment": ""
+                },
+                {
+                    "Name": "ds_record_created_timestamp",
+                    "Type": "string",
+                    "Comment": ""
+                }
+            ],
+            "Location": "s3://tcb-ps5-data-sit-staging-ap-southeast-1-347781565809/t24/account_kappa/",
+            "InputFormat": "org.apache.hadoop.hive.ql.io.parquet.MapredParquetInputFormat",
+            "OutputFormat": "org.apache.hadoop.hive.ql.io.parquet.MapredParquetOutputFormat",
+            "Compressed": true,
+            "NumberOfBuckets": -1,
+            "SerdeInfo": {
+                "SerializationLibrary": "org.apache.hadoop.hive.ql.io.parquet.serde.ParquetHiveSerDe",
+                "Parameters": {
+                    "serialization.format": "1"
+                }
+            },
+            "SortColumns": [],
+            "Parameters": {
+                "CrawlerSchemaDeserializerVersion": "1.0",
+                "classification": "parquet",
+                "compressionType": "snappy",
+                "typeOfData": "file"
+            },
+            "StoredAsSubDirectories": false,
+            "SchemaReference": {
+                "SchemaVersionId": "4512b888-279e-474b-8bca-596ce1e2943f"
+            }
+        },
+        "PartitionKeys": [
+            {
+                "Name": "ds_year",
+                "Type": "string",
+                "Comment": ""
+            },
+            {
+                "Name": "ds_month",
+                "Type": "string",
+                "Comment": ""
+            },
+            {
+                "Name": "ds_day",
+                "Type": "string",
+                "Comment": ""
+            },
+            {
+                "Name": "ds_hour",
+                "Type": "string",
+                "Comment": ""
+            }
+        ],
+        "TableType": "GOVERNED",
+        "Parameters": {
+            "classification": "parquet",
+            "compressionType": "snappy",
+            "typeOfData": "file"
+        },
+        "CreatedBy": "arn:aws:sts::347781565809:assumed-role/AWSReservedSSO_lz-account-admin_baec58bccb161c22/vutch@techcombank.com.vn",
+        "IsRegisteredWithLakeFormation": true,
+        "CatalogId": "347781565809"
+    }
+}
